@@ -12,6 +12,7 @@
 		C7BDC4801E4ADB2D004372DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7BDC47E1E4ADB2D004372DE /* Main.storyboard */; };
 		C7BDC4821E4ADB2D004372DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7BDC4811E4ADB2D004372DE /* Assets.xcassets */; };
 		C7BDC4851E4ADB2D004372DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7BDC4831E4ADB2D004372DE /* LaunchScreen.storyboard */; };
+		C7BDC48E1E4ADC55004372DE /* zing-mp3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C7BDC48D1E4ADC55004372DE /* zing-mp3.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		C7BDC4811E4ADB2D004372DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C7BDC4841E4ADB2D004372DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C7BDC4861E4ADB2D004372DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7BDC48D1E4ADC55004372DE /* zing-mp3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "zing-mp3.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +62,17 @@
 				C7BDC4811E4ADB2D004372DE /* Assets.xcassets */,
 				C7BDC4831E4ADB2D004372DE /* LaunchScreen.storyboard */,
 				C7BDC4861E4ADB2D004372DE /* Info.plist */,
+				C7BDC48C1E4ADBE6004372DE /* Image */,
 			);
 			path = mo3.zing;
+			sourceTree = "<group>";
+		};
+		C7BDC48C1E4ADBE6004372DE /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				C7BDC48D1E4ADC55004372DE /* zing-mp3.jpg */,
+			);
+			name = Image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,6 +134,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7BDC48E1E4ADC55004372DE /* zing-mp3.jpg in Resources */,
 				C7BDC4851E4ADB2D004372DE /* LaunchScreen.storyboard in Resources */,
 				C7BDC4821E4ADB2D004372DE /* Assets.xcassets in Resources */,
 				C7BDC4801E4ADB2D004372DE /* Main.storyboard in Resources */,
@@ -299,6 +311,7 @@
 				C7BDC48B1E4ADB2D004372DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
